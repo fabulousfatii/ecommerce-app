@@ -14,7 +14,7 @@ function ProductDetail() {
 
 
     return (
-        <div>
+     
             <section  className="mt-12 mx-auto px-4 max-w-screen-xl md:px-8">
           <article className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm bg-repeat-round bg-purple-300" >
                             <a href={items.href}>
@@ -37,7 +37,7 @@ function ProductDetail() {
                             </a>
                         </article>
         </section>
-        </div>
+       
     )
 }
 
